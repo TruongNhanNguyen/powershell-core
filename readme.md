@@ -30,6 +30,7 @@
 - [Intall Oh-my-posh](#intall-oh-my-posh)
   - [Choose and apply a PowerShell prompt theme](#choose-and-apply-a-powershell-prompt-theme)
 - [Set Aliases](#set-aliases)
+- [Create your custom themes](#create-your-custom-themes)
 
 </details>
 
@@ -262,4 +263,15 @@ Set-Alias -Name ll -Value ls
 Set-Alias -Name np -Value 'C:\WINDOWS\system32\notepad.exe'
 Set-Alias -Name rn -Value Rename-Item
 Set-Alias -Name which -Value where.exe
+```
+
+# Create your custom themes
+
+I created 2 custom themes based on available oh-my-posh themes `agnoster.omp.json` and `zash.omp.json`. You can see how to create your custom themes on the [official website of Oh-my-posh](https://ohmyposh.dev/docs/themes).
+
+To use the customized themes, make sure it was placed at the root directory of your computer `~` and add the command below to the `$PROFILE`
+
+```pwsh
+# You can replace agnoster.omp.json with any customized themes you want (if any)
+oh-my-posh init pwsh --config "~\agnoster.omp.json" | Invoke-Expression
 ```
