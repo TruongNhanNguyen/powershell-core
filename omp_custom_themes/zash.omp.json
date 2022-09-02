@@ -5,7 +5,7 @@
             "alignment": "left",
             "segments": [
                 {
-                    "foreground": "#fa0303",
+                    "foreground": "#017e8f",
                     "style": "plain",
                     "template": "@{{ .UserName }} ",
                     "type": "session"
@@ -17,7 +17,7 @@
                     "type": "text"
                 },
                 {
-                    "foreground": "#56B6C2",
+                    "foreground": "#008394",
                     "properties": {
                         "style": "folder"
                     },
@@ -26,12 +26,12 @@
                     "type": "path"
                 },
                 {
-                    "foreground": "#e00000",
+                    "foreground": "#ff0000",
                     "properties": {
                         "branch_icon": ""
                     },
                     "style": "plain",
-                    "template": " <#faf600>git(</>{{ .HEAD }}<#faf600>)</>",
+                    "template": " <#2500fa>git(</>{{ .HEAD }}<#2500fa>)</>",
                     "type": "git"
                 },
                 {

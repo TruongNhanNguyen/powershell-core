@@ -31,6 +31,9 @@
   - [Choose and apply a PowerShell prompt theme](#choose-and-apply-a-powershell-prompt-theme)
 - [Set Aliases](#set-aliases)
 - [Create your custom themes](#create-your-custom-themes)
+  - [Demo images of my custom themes](#demo-images-of-my-custom-themes)
+    - [`zash`](#zash)
+    - [`agnoster`](#agnoster)
 
 </details>
 
@@ -275,3 +278,13 @@ To use the customized themes, make sure it was placed at the root directory of y
 # You can replace agnoster.omp.json with any customized themes you want (if any)
 oh-my-posh init pwsh --config "~\agnoster.omp.json" | Invoke-Expression
 ```
+
+## Demo images of my custom themes
+
+### `zash`
+
+![zash](docs/images/zash-theme-omp.jpg)
+
+### `agnoster`
+
+![agnoster](docs/images/agnoster-theme-omp.jpg)
