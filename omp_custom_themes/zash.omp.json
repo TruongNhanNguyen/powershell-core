@@ -35,9 +35,9 @@
                     "type": "git"
                 },
                 {
-                    "foreground": "#faf600",
+                    "foreground": "#ff0000",
                     "style": "plain",
-                    "template": " \uf119",
+                    "template": " \ufbbb",
                     "type": "exit"
                 }
             ],
