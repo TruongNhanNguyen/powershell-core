@@ -252,6 +252,14 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-
 
 Now, each new PowerShell instance will start by importing Oh My Posh and setting your command line theme.
 
+# Winfetch
+
+Follow the instruction to install [winfetch](https://github.com/kiedtl/winfetch)
+
+## Demo
+
+![winfetch](docs/images/winfetch.jpg)
+
 # Set Aliases
 
 PowerShell Core has many command aliases that can be listed using the `Get-Alias` command.
@@ -266,6 +274,7 @@ Set-Alias -Name ll -Value ls
 Set-Alias -Name np -Value 'C:\WINDOWS\system32\notepad.exe'
 Set-Alias -Name rn -Value Rename-Item
 Set-Alias -Name which -Value where.exe
+Set-Alias winfetch pwshfetch-test-1
 ```
 
 # Create your custom themes
