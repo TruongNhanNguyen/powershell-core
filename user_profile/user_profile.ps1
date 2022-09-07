@@ -26,3 +26,5 @@ Set-Alias -Name ll -Value ls
 Set-Alias -Name np -Value 'C:\WINDOWS\system32\notepad.exe'
 Set-Alias -Name rn -Value Rename-Item
 Set-Alias -Name which -Value where.exe
+# winfetch
+Set-Alias winfetch -Value pwshfetch-test-1
